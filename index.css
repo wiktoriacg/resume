@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+p, li {
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Wyśrodkowanie sekcji kontaktowej */
+.center {
+    text-align: center;
+}
+
+/* Formatowanie linii "Bachelor of Science in Computer Science" + "Expected: May 2026" */
+.education-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+/* Wyrównanie "Expected: May 2026" do prawej */
+.date {
+    font-size: 14px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+/* Lista kwalifikacji */
+ul.resume-list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul.resume-list > li {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 0; /* Aby zaczynały się dokładnie na linii */
+}
+
+ul.resume-list > li.indent {
+    font-weight: normal;
+    margin-left: 40px;
+}
